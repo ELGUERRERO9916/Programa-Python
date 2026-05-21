@@ -14,7 +14,7 @@ matriz=[
 def umbral_de_horas(horas):
     if horas > 40: 
         return "Sobretiempo"
-    if horas <= 40: 
+    elif horas <= 40: 
         return "Horario estándar"
 
 def Calcular_suma_horas(fila):
